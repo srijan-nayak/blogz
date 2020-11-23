@@ -8,3 +8,39 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.site-header {
+  background-color: #439775;
+  height: 6.8rem;
+}
+
+.header-link {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#site-home-link {
+  font-family: Comfortaa, cursive;
+  letter-spacing: 0.2em;
+  text-transform: lowercase;
+}
+
+.header-nav {
+  height: 100%;
+  max-width: 31rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
