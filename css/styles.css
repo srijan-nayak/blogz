@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ body {
 .site-header {
   background-color: #439775;
   height: 6.8rem;
+  margin-bottom: 2.8rem;
 }
 
 .header-link {
@@ -43,4 +45,22 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+}
+
+.site-footer {
+  height: 4.5rem;
+  background-color: #042A2B;
+  margin-top: 2.8rem;
+}
+
+.footer-content {
+  color: #7C9091;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+  height: 100%;
+  max-width: 31rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
