@@ -44,3 +44,20 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+
+.site-footer {
+  height: 4.5rem;
+  background-color: #042A2B;
+}
+
+.footer-content {
+  color: #7C9091;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+  height: 100%;
+  max-width: 31rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
