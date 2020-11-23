@@ -64,3 +64,11 @@ body {
   display: flex;
   align-items: center;
 }
+
+.section-heading {
+  color: #042A2B;
+  font-family: 'Roboto Slab', serif;
+  font-size: 4.8rem;
+  margin-top: 0;
+  margin-bottom: 2.8rem;
+}
