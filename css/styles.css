@@ -1,3 +1,6 @@
+@import url(./index.css);
+@import url(./post-card.css);
+
 html {
   /* set base font size to 10px */
   font-size: 62.5%;
