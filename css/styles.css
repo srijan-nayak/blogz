@@ -80,3 +80,17 @@ main {
   max-width: 31rem;
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .header-nav {
+    max-width: 64rem;
+  }
+
+  .footer-content {
+    max-width: 64rem;
+  }
+
+  main {
+    max-width: 64rem;
+  }
+}
