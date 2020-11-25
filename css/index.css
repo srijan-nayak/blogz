@@ -1,0 +1,5 @@
+.posts {
+  display: grid;
+  grid-auto-rows: minmax(30rem, auto);
+  row-gap: 2.8rem;
+}
