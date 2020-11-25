@@ -94,3 +94,17 @@ main {
     max-width: 64rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .header-nav {
+    max-width: 108rem;
+  }
+
+  .footer-content {
+    max-width: 108rem;
+  }
+
+  main {
+    max-width: 108rem;
+  }
+}
