@@ -59,3 +59,23 @@
   font-size: 1.6rem;
   letter-spacing: 0.02em;
 }
+
+@media (min-width: 1200px) {
+  .post-card {
+    grid-template-rows: minmax(4.9rem, auto) minmax(9.1rem, auto);
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .post-card img {
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+  }
+
+  .post-header {
+    grid-row: 1 / 2;
+  }
+
+  .post-details {
+    grid-row: 2 / 3;
+  }
+}

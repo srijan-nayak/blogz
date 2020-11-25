@@ -10,3 +10,9 @@
     column-gap: 2.8rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .posts {
+    grid-auto-rows: minmax(14rem, auto);
+  }
+}
