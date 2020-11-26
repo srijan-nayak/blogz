@@ -30,8 +30,7 @@
 }
 
 .blog-image {
-  margin: 0;
-  margin-bottom: 1.6rem;
+  margin: 0 0 1.6rem 0;
 }
 
 .blog-image img {
@@ -46,4 +45,21 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0.02em;
+}
+
+.blog {
+  max-width: 64rem;
+  margin: 0 auto 2.8rem auto;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #042A2B;
+}
+
+.social-sharing {
+  max-width: 64rem;
+  margin: 0 auto 2.8rem auto;
+}
+
+.author-info {
+  max-width: 64rem;
+  margin: 0 auto 2.8rem auto;
 }
