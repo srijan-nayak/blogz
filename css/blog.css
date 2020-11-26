@@ -59,6 +59,39 @@
   margin: 0 auto 2.8rem auto;
 }
 
+.share-buttons {
+  display: flex;
+}
+
+.share-buttons a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+
+}
+
+.share-button:hover,
+.share-button:active {
+  filter: brightness(1.1);
+}
+
+#twitter-share {
+  background-color: #1da1f2;
+}
+
+#facebook-share {
+  background-color: #1877f2;
+}
+
+#linkedin-share {
+  background-color: #0073b1;
+}
+
 .author-info {
   max-width: 64rem;
   margin: 0 auto 2.8rem auto;
