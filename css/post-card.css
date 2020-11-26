@@ -1,6 +1,6 @@
 .post-card {
   display: grid;
-  grid-template-rows: 16rem minmax(4.9rem, auto) minmax(9.1rem, auto);
+  grid-template-rows: 16rem min-content min-content;
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -16,7 +16,7 @@
   background-color: #042a2b;
   display: flex;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .post-title {
@@ -63,7 +63,7 @@
 
 @media (min-width: 1200px) {
   .post-card {
-    grid-template-rows: minmax(4.9rem, auto) minmax(9.1rem, auto);
+    grid-template-rows: min-content min-content;
     grid-template-columns: 1.5fr 1fr;
   }
 
