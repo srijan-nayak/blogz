@@ -1,18 +1,11 @@
 .posts {
   display: grid;
-  grid-auto-rows: minmax(30rem, auto);
-  row-gap: 2.8rem;
+  grid-auto-rows: min-content;
+  gap: 2.8rem;
 }
 
 @media (min-width: 768px) {
   .posts {
     grid-template-columns: 1fr 1fr;
-    column-gap: 2.8rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .posts {
-    grid-auto-rows: minmax(14rem, auto);
   }
 }
