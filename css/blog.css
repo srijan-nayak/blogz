@@ -28,3 +28,22 @@
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
+.blog-image {
+  margin: 0;
+  margin-bottom: 1.6rem;
+}
+
+.blog-image img {
+  max-height: 36rem;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.blog-image figcaption {
+  color: #7c9091;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+}
