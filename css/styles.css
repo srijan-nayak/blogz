@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  color: #042A2B;
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -73,7 +74,6 @@ body {
 }
 
 .section-heading {
-  color: #042A2B;
   font-family: 'Roboto Slab', serif;
   font-size: 4.8rem;
   letter-spacing: 0.02em;
