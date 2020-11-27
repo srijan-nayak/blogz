@@ -94,5 +94,52 @@
 
 .author-info {
   max-width: 64rem;
-  margin: 0 auto 2.8rem auto;
+  margin: 0 auto;
+}
+
+.author-details {
+  height: min-content;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-template-rows: 10rem min-content;
+  font-family: Roboto, sans-serif;
+}
+
+.author-avatar {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.author-card {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.6rem;
+  justify-content: space-evenly;
+}
+
+.author-name {
+  font-size: 3rem;
+  letter-spacing: 0.02em;
+}
+
+.author-title {
+  font-size: 2rem;
+}
+
+.author-workplace {
+  font-size: 1.6rem;
+  color: #7c9091;
+}
+
+.author-bio {
+  grid-column: 1 / -1;
+  grid-row: -2 / -1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
 }
