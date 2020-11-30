@@ -29,6 +29,29 @@
   margin-bottom: 2rem;
 }
 
+.blog-text strong {
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.blog-text em {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.blog-quote {
+  border-left: 5px solid #439775;
+  padding: 0.5rem 2em;
+  margin: 2rem;
+}
+
+.blog-quote p {
+  font-family: 'Source Sans Pro';
+  font-size: 2.4rem;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
 .blog-image {
   margin: 0 0 1.6rem 0;
 }
@@ -123,6 +146,7 @@
 }
 
 .author-name {
+  color: #439775;
   font-size: 3rem;
   letter-spacing: 0.02em;
 }
